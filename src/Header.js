@@ -1,13 +1,14 @@
+
 import React, { Component } from 'react'
 
-export default class Currency extends Component {
+export default class Header extends Component {
   render() {
-
-    console.log(this.props.Currency)
     return (
       <div>
-        
+        <h1>WORLD COUNTRIES</h1>
       </div>
     )
   }
 }
+
+  
