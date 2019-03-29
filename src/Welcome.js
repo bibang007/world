@@ -21,7 +21,7 @@ people with distinct political characteristics.
  as defined by the League of Nations in 1937 
  and reaffirmed by the United Nations in 1945, 
  a resident of a country is subject to the independent 
- exercise[clarification needed] of legal jurisdiction.
+ exercise of legal jurisdiction.
  There is no hard and fast definition of what regions 
  are countries and which are not.
 </p>

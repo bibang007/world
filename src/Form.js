@@ -5,18 +5,18 @@ export default class Form extends Component {
     return (
       <div>
 
-        <form className='form' onSubmit={e => this.getCountriesByRegion(e)}>
-          <input type='text' placeholder="Search by Region" name='value' value={this.state.value} onChange={e => this.handleChange(e)}></input>
+        <form className='form' onSubmit={this.props.getCountriesByRegion}>
+          <input type='text' placeholder="Search by Region" name='value' value={this.props.value} onChange={this.props.handleChange}></input>
           
 
         </form>
 
-        <form className='form' onSubmit={e => this.getCountriesByName(e)}>
-          <input type='text' placeholder="Search by Name" name='name' value={this.state.name} onChange={e => this.handleChange(e)}></input>
+        <form className='form' onSubmit={this.props.getCountriesByName}>
+          <input type='text' placeholder="Search by Name" name='name' value={this.props.name} onChange={this.props.handleChange}></input>
           
 
         </form>
-        
+
       </div>
     )
   }

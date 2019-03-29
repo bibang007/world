@@ -15,6 +15,9 @@ class Main extends Component {
       flag: '',
       Region: '',
     }
+    this.getCountriesByRegion = this.getCountriesByRegion.bind(this);
+    this.getCountriesByName = this.getCountriesByName.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
 
@@ -84,7 +87,13 @@ componentDidMount(){
 
       <div className="main">
 
-        <Form />
+        <Form 
+        name={this.state.name}
+        value={this.state.value}
+        getCountriesByName={this.getCountriesByName}
+        getCountriesByRegion={this.getCountriesByRegion}
+        handleChange={this.handleChange}
+        />
 
         {this.renderCountry()}
 
