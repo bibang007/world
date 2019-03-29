@@ -61,9 +61,14 @@ input[type=text] {
 }
 
 footer {
-  /* grid-area: footer; */
-  background-color: rgb(32, 25, 61);
+  font-size: 2em;
+  background-color: rgb(26, 61, 25);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: bisque
+}
+
+a {
+  color:bisque;
 }
